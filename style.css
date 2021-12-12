@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden; 
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+
+#content-header {
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr 1fr;
+    height: 40px;
+    background-color: #212121;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+#logo {
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    justify-self: right;
+    display: flex;
+    grid-template-columns: 3fr 3fr 1fr;
+    padding: 0 32px;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.home {
+    background-color: #F9A825;
+    justify-self: center;
+    margin: 4px 0;
+    border-radius: 50px;
+    padding: 6px 32px;
+}
+
+.botao:hover {
+    background-color: red;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72vh;
+}
+
+#main-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 56px;
+    width: 640px;
+    height: auto;
+}
+
+.estante {
+    margin: inherit;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.estante p {
+    margin: 16px 32px;
+    text-align: justify;
+}
+
+.estante input {
+    justify-self: left;
+    margin: 32px;
+    width: 200px;
+    height: 24px;
+}
+
+.pontilhado {
+    border-right: 1px dotted #212121;
+}
+
+.txt {
+    justify-self: left;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #212121;  
+}
+
+#tiacademy {
+    color: white;
+    font-weight: bold;
+}
